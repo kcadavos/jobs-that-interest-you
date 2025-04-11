@@ -12,4 +12,5 @@ create a website with Next.JS/TypeScript about five places that you want to work
 
 Built in React, using Tailwind. Must use routers as a single page application
 
-Peer reviewed by:
+Peer reviewed by: Gianpaolo Reinares
+> Notes: Code looks good; site is simple and easy to navigate; Color coordination is nice; I might just suggest already having the link in the Airbnb page already underlined to make the viewer aware that it is a link; I might also suggest doing a hover effect for each of the links on the sidebar just to make the site a bit more dynamic; besides that, everything else is great!
