@@ -125,13 +125,11 @@
   
     
   }
-  .menuItem :hover{
+  .menuItem:hover{
     font-size: 50px;
-
+    cursor: pointer
     
   }
-  h3{
-    font-size: large;
-    color: blue;
-  }
+
+
 }

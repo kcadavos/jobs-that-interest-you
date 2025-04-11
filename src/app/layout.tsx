@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import HeaderComponent from "@/components/HeaderComponent";
+import { useState } from "react";
 
 
 const geistSans = Geist({
@@ -24,17 +25,18 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
       <div className="m-10">
-      <h1 className="text-2xl text-center font-bold p-10"> Karen's Dream Employers</h1>
+      <h1 className="text-3xl text-center font-bold p-10">Jobs that Interest Me</h1>
         <div className="grid grid-cols-4 gap-10">
 <HeaderComponent />
   
-   
+
 
    {children}
  

@@ -23,10 +23,11 @@ const HeaderComponent = () => {
 //    <div className='w-20'>
       
        <div className='col-span-1 flex flex-col '>
-    <h1 className="text-teal-500 menuItem" onClick={()=>handleLink("Cricut")}>Cricut</h1>
-    <h1 className="menuItem">CVS</h1>
-    <h1 className="menuItem">Microsoft</h1>
-    <h1 className="menuItem">Canva</h1>
+    <p className="menuItem text-teal-500 menuItem" onClick={()=>handleLink("Cricut")}>Cricut</p>
+    <p className="menuItem text-purple-500" onClick={()=>handleLink("Canva")}>Canva</p>
+    <p className="menuItem text-red-500" onClick={()=>handleLink("Cvs_")}>CVS</p>
+    <p className="menuItem text-blue-500" onClick={()=>handleLink("Microsoft")}>Microsoft</p>
+    <p className="menuItem text-pink-500" onClick={()=>handleLink("Airbnb")}>Airbnb</p>
   
 </div>
 // </div>
